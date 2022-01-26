@@ -2,7 +2,10 @@ const markdown = `# Rust Learning Notes
 [The Rust Book](https://doc.rust-lang.org/book/)
 
 ## Syntax
-- comments are made like this: // this is a comment in Rust
+- comments are made like this:
+~~~Rust
+// This is a comment in Rust.
+~~~
 - semi-colons are mandatory
 
 ## Variables and Mutability
