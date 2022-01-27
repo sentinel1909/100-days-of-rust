@@ -4,5 +4,6 @@
 }
 
 .reactMarkDown code {
-  margin-left: 1.5em;
+  display: block;
+  margin-left: 1.25em;
 }
