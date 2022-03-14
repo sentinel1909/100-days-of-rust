@@ -4,7 +4,7 @@ import markdown from "../content/markdown";
 
 import styles from "../styles/markdown-styles.module.css";
 
-const Article = () => {
+const Content = () => {
   return (
     <article className={styles.ul}>
       <ReactMarkdown
@@ -16,4 +16,4 @@ const Article = () => {
   );
 };
 
-export default Article;
+export default Content;

@@ -1,7 +1,7 @@
 import { useState } from "react";
 
 import Header from "./components/header";
-import Article from "./components/article";
+import Content from "./components/content";
 import Footer from "./components/footer";
 
 import styles from "./styles/app.module.css";
@@ -12,8 +12,8 @@ const App = () => {
 
   return (
     <main className={styles.container}>
-      <Header />
-      <Article />
+      <Header today={today} />
+      <Content />
       <Footer year={year} />
     </main>
   );

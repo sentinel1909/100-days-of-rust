@@ -1,6 +1,18 @@
 const markdown = `# Rust Learning Notes
 [The Rust Book](https://doc.rust-lang.org/book/)
 
+## Data Types
+- computers represent data in the binary format
+- the Rust language gives us data types to abstract away the need to think about representing the data in our problems in a binary format
+- Rust is a statically typed language, meaning it must know the types of all data at compile time
+- two core data types: scalar and compound
+
+### Scalar Data Types
+- integer, double, floating point, boolean, string and character
+
+### Compound Data Types
+- tuples and arrays
+
 ## Syntax
 - comments are made like this:
 ~~~Rust
@@ -37,17 +49,6 @@ const THREE_HOURS_IN_SECONDS: u32 = 60 * 6 * 3;
 - you can't use the mut keyword with constants
 - convention is to use uppercase names for constants
 - valid for the entire time the program runs, within the scope they were declared in
-
-## Data Types and Operations
-- Rust is a statically typed language, meaning it must know the types of all data at compile time
-- two core data types: scalar and compound
-- Rust supports basic mathematical operations such as addition, subtraction, division and remainder
-
-### Scalar Data Types
-- integer, floating point, boolean and char
-
-### Compound Data Types
-- tuples and arrays
 `;
 
 export default markdown;
