@@ -1,6 +1,5 @@
 .container {
-  display: inline-block;
-  position: relative;
+  display: block;
   margin: 5em;
   width: 100%;
 }

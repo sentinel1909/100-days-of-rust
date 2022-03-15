@@ -1,9 +1,13 @@
+.reactMarkDown {
+  display: inline-block;
+}
+
 .reactMarkDown ul {
   margin-left: 1.25em;
-  padding: 1em;
+  padding: 0.5em;
 }
 
 .reactMarkDown code {
   display: block;
-  margin-left: 1.25em;
+  margin-left: 2em;
 }

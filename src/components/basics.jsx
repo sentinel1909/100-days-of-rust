@@ -1,19 +1,19 @@
 import ReactMarkdown from "react-markdown";
 import remarkGfm from "remark-gfm";
-import markdown from "../content/markdown";
+import basics from "../content/basics";
 
 import styles from "../styles/markdown-styles.module.css";
 
-const Content = () => {
+const Basics = () => {
   return (
     <article className={styles.ul}>
       <ReactMarkdown
         className={styles.reactMarkDown}
-        children={markdown}
+        children={basics}
         remarkPlugins={[remarkGfm]}
       ></ReactMarkdown>
     </article>
   );
 };
 
-export default Content;
+export default Basics;
